@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 
+//MAPS THE PATH AND HANDLES INCOMING API REQUESTS
+
 @RestController
 @RequestMapping("/api/games") // Sets base URL
 public class GameController {

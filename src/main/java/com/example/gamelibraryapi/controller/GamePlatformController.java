@@ -1,6 +1,4 @@
 package com.example.gamelibraryapi.controller;
-
-
 import com.example.gamelibraryapi.model.GamePlatform;
 import com.example.gamelibraryapi.service.GamePlatformService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,6 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+
+
+//MAPS THE PATH AND HANDLES INCOMING API REQUESTS
 
 @RestController
 @RequestMapping("/api/gameplatform") // Sets base URL
